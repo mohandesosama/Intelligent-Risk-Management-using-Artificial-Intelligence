@@ -29,7 +29,7 @@ The threats for each specific asset should be identified. Threats such as softwa
 The next step is to define the existing control for mitigating such risk. The control value is calculated by dividing the control effectiveness over the control level. The current risk posture can be judged due to the control value and the calculated risk. Finally, the total risk is calculated. 
 Algorithm 1 shows the proposed GA algorithm. It takes as an input, the Asset Value (AV), Impact (IM), Likelihood (LH), Uncertainty (UC), and Control Value (CV). The risk is then calculated by using the following formula:
 
-Risk=(AV x IM x LH) + (AV x IM x LH) x UC – CV 	(1)
+_Risk=(AV x IM x LH) + (AV x IM x LH) x UC – CV 	(1)_
 
 After applying GA for calculating the best parameters to minimize the risk in equation 1, we get the fitness function with optimal parameters. 
 
@@ -42,10 +42,12 @@ Risk = (AV x IM x LH) + (AV x IM x LH) x UC – CV
 Where CV = Control Effectiveness / Control Level 
 
 ```
+
 The algorithm is detailed in the flow chart in the following The resulting parameters are passed to the formula in equation 1. If the calculated risk is minimized enough, then no need for GA. If the calculated risk is not minimized, then the GA procedure is applied to minimize the risk. 
 GA algorithm starts by assigning solutions called chromosomes. It creates a collection of chromosomes in a bigger population. The selection procedure is applied to select the best chromosomes that will survive to the next generation.  
 Next, GA makes a crossover to the chromosomes. Crossover means switching parts between chromosomes. That will add more chromosomes to the population. The last step is mutation, which means switching randomly parts of the chromosomes (genes) that will also creates new chromosomes and add them to the population. GA will start over again and return to the selection phase if the existing chromosomes are not suitable to minimize the risk.  Otherwise, the algorithm will end. 
 
 <img src="./images/algorithm.png" width="380"/>
 
-
+## CONCLUSION
+This paper utilizes the intelligence of genetic algorithms to calculate risks based on complex combinations of assets, threats, vulnerabilities, and controls. Results showed that using Genetic algorithm to help in risk assessments lead to higher accuracy in risk assessment and hence increased the ability of organizations to better deal with unexpected threats. Future work based on presented concept can develop intelligent software unleashing the power of artificial intelligence to automate risk management process for large enterprises. 
