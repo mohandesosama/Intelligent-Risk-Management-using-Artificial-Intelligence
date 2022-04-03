@@ -18,4 +18,4 @@ Prior to explanation of design presented in this paper it is mandatory to unders
 As shown in Figure 2, the presented design takes various risk assessment values as genetic algorithm variables and after processing deliver parameters that are essential for maintaining risks under control in any type of business environment.
 Risk assessment exercise is performed to get information that can be use as input for genetic algorithm. 
 
-<img src="./images/Untitled.png" width="300"/>
+<img src="./images/Untitled1.png" width="300"/>
