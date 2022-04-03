@@ -22,6 +22,23 @@ Risk assessment exercise is performed to get information that can be used as inp
 
 The risk assessment procedure is shown in the following figure. A comprehensive asset inventory should be available against which risk assessment will be performed and are part of risk assessment scope.
 
-<img src="./images/sturcture.png" width="450"/>
+<img src="./images/sturcture.png" width="380"/>
 
+Once asset inventory is developed it is pivotal to evaluate the value of asset. Asset Value (AV) can be calculated using quantitative or qualitative methods. In quantitative process various techniques such as net present value, dollar value to business etc. can be calculated. This is a resources intensive and mathematically complex process as the number of assets increase along with data with diverse classification levels. Whereas qualitative Asset Value (AV) only determines the criticality of an asset on various scales normally in the range of 1-5, with 5 being very critical.  
+The threats for each specific asset should be identified. Threats such as software threats, theft, natural causes, etc. The corresponding vulnerabilities also should be identified. The threats can exploit the vulnerability to make an attack and put the asset in a high risk. For example, if a computer PC is the asset, the threat can be a virus and the vulnerability can be something like not installing an antivirus on the computer. Not installing an anti-virus puts the PC at a high risk. The risk is then calculated by using the impact and likelihood. The impact calculates how much losses occurred due to the threat exploitation. The likelihood calculates how probable the occurrence of such threat exploitation. The likelihood is easily calculated from the historical records of previous exploits.  For example, if the asset is database server. The impact is very high, since attacking the database server means losing customer contacts and financial sensitive data. The likelihood is calculated by counting how many times the database server faced an attack during the last year. 
+The next step is to define the existing control for mitigating such risk. The control value is calculated by dividing the control effectiveness over the control level. The current risk posture can be judged due to the control value and the calculated risk. Finally, the total risk is calculated. 
+Algorithm 1 shows the proposed GA algorithm. It takes as an input, the Asset Value (AV), Impact (IM), Likelihood (LH), Uncertainty (UC), and Control Value (CV). The risk is then calculated by using the following formula:
 
+Risk=(AV x IM x LH) + (AV x IM x LH) x UC – CV 	(1)
+
+After applying GA for calculating the best parameters to minimize the risk in equation 1, we get the fitness function with optimal parameters. 
+
+**Algorithm 1: Risk Value Calculation**
+```
+Input: Asset Value (AV), Impact (IM), Likelihood (LH), Uncertainty (UC), Control Value (CV)  .
+Output: Fitness Functon with optimal parameters.
+Formula: 
+Risk = (AV x IM x LH) + (AV x IM x LH) x UC – CV
+Where CV = Control Effectiveness / Control Level 
+
+```
