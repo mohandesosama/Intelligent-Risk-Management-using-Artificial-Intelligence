@@ -42,3 +42,10 @@ Risk = (AV x IM x LH) + (AV x IM x LH) x UC – CV
 Where CV = Control Effectiveness / Control Level 
 
 ```
+The algorithm is detailed in the flow chart in the following The resulting parameters are passed to the formula in equation 1. If the calculated risk is minimized enough, then no need for GA. If the calculated risk is not minimized, then the GA procedure is applied to minimize the risk. 
+GA algorithm starts by assigning solutions called chromosomes. It creates a collection of chromosomes in a bigger population. The selection procedure is applied to select the best chromosomes that will survive to the next generation.  
+Next, GA makes a crossover to the chromosomes. Crossover means switching parts between chromosomes. That will add more chromosomes to the population. The last step is mutation, which means switching randomly parts of the chromosomes (genes) that will also creates new chromosomes and add them to the population. GA will start over again and return to the selection phase if the existing chromosomes are not suitable to minimize the risk.  Otherwise, the algorithm will end. 
+
+<img src="./images/algorithm.png" width="380"/>
+
+
