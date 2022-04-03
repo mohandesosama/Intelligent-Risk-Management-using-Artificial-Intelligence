@@ -1,5 +1,6 @@
 # Intelligent Risk Management using Artificial Intelligence 
 You can download PDF version of the paper from [here](https://www.researchgate.net/profile/Osama-Hosam/publication/359362007_Intelligent_Risk_Management_using_Artificial_Intelligence/links/6239819e781d2e6df7ac2649/Intelligent-Risk-Management-using-Artificial-Intelligence.pdf?_sg%5B0%5D=gS7vCgowNoAegmgJZhC28cBVFYV6HrGubyMJ60Gyoy0vVi6QSxCooN1sAeCyc2wQPsD8HkiZ2wzHBCdsKVuwBw.w5f9avFGTOqZvUU3BHM-3pemiEL-eaM1rNm9hZcbXkS_WrLGjGupGDBSEeJ5mAIKbTn1mnux3-XbZ4OtwzKJPw&_sg%5B1%5D=491YA_zhA9PIvZkRESDGezgPL78v7RKC7av4ugpOZHtV29UFcmCP8PSClBqsFzdMWE9gGOJPYzG6FRKtZicQj1XMu0lUS3GwugeE1lEXJ0H8.w5f9avFGTOqZvUU3BHM-3pemiEL-eaM1rNm9hZcbXkS_WrLGjGupGDBSEeJ5mAIKbTn1mnux3-XbZ4OtwzKJPw&_iepl=). 
+
 Cite this paper as 
 _Hosam, O. (2022, February). Intelligent Risk Management using Artificial Intelligence. In 2022 Advances in Science and Engineering Technology International Conferences (ASET) (pp. 1-9). IEEE.‏_
 ## Abstract
