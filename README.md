@@ -17,4 +17,4 @@ This paper is divided into several sections. The related work is discussed in se
 Prior to explanation of design presented in this paper it is mandatory to understand the key advantage of the proposed design.
 As shown in Figure 2, the presented design takes various risk assessment values as genetic algorithm variables and after processing deliver parameters that are essential for maintaining risks under control in any type of business environment.
 Risk assessment exercise is performed to get information that can be use as input for genetic algorithm. 
-![](/images/untitle1.jpg)
+![Risk using GA](/images/Untitle1.png)
