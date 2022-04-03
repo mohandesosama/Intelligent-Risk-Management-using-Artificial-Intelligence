@@ -52,3 +52,6 @@ Next, GA makes a crossover to the chromosomes. Crossover means switching parts b
 
 ## CONCLUSION
 This paper utilizes the intelligence of genetic algorithms to calculate risks based on complex combinations of assets, threats, vulnerabilities, and controls. Results showed that using Genetic algorithm to help in risk assessments lead to higher accuracy in risk assessment and hence increased the ability of organizations to better deal with unexpected threats. Future work based on presented concept can develop intelligent software unleashing the power of artificial intelligence to automate risk management process for large enterprises. 
+
+Cite this paper as 
+_Hosam, O. (2022, February). Intelligent Risk Management using Artificial Intelligence. In 2022 Advances in Science and Engineering Technology International Conferences (ASET) (pp. 1-9). IEEE.‏_
