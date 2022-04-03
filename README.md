@@ -15,7 +15,13 @@ This paper is divided into several sections. The related work is discussed in se
 
 ## THE PROPOSED APPROACH
 Prior to explanation of design presented in this paper it is mandatory to understand the key advantage of the proposed design.
-As shown in Figure 2, the presented design takes various risk assessment values as genetic algorithm variables and after processing deliver parameters that are essential for maintaining risks under control in any type of business environment.
-Risk assessment exercise is performed to get information that can be use as input for genetic algorithm. 
+As shown in the following figuer, the presented design takes various risk assessment values as genetic algorithm variables and after processing deliver parameters that are essential for maintaining risks under control in any type of business environment.
+Risk assessment exercise is performed to get information that can be used as input for genetic algorithm. 
 
-<img src="./images/Untitled1.png" width="300"/>
+<img src="./images/Untitled1.png" width="400"/>
+
+The risk assessment procedure is shown in the following figure. A comprehensive asset inventory should be available against which risk assessment will be performed and are part of risk assessment scope.
+
+<img src="./images/sturcture.png" width="450"/>
+
+
